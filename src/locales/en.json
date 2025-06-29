@@ -1,0 +1,122 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "team": "Team",
+    "projects": "Projects",
+    "courses": "Courses",
+    "blog": "Blog",
+    "contact": "Contact",
+    "contactBtn": "Get in Touch"
+  },
+  "intro": {
+    "title": "Enhance your knowledge with Ilm Hub",
+    "subtitle": "IT, language, and kids courses – all in one place.",
+    "cta": "View Courses"
+  },
+  "stats": {
+    "title": "Our Impact in Numbers",
+    "students": "Students",
+    "courses": "Courses",
+    "teachers": "Teachers",
+    "graduates": "Graduates"
+  },
+  "coursesPreview": {
+    "title": "Courses",
+    "details": "Details",
+    "viewAll": "View All",
+    "close": "Close",
+    "level": "Level",
+    "duration": "Duration",
+    "requirements": "Requirements",
+    "syllabus": "Syllabus",
+    "categories": {
+      "barcha": "All",
+      "foundation": "Foundation",
+      "backend": "Backend",
+      "bootcamp": "Bootcamp",
+      "english": "English",
+      "mobile": "Mobile Development",
+      "kids": "Kids"
+    }
+  },
+  "marquee": {
+    "title": "Our Courses",
+    "items": [
+      "C++ Fundamentals",
+      "Python Backend",
+      "React JS",
+      "Scratch Coding",
+      "Arduino Projects",
+      "English Advanced",
+      "Mobile Bootcamp",
+      "Frontend Development",
+      "Backend Development",
+      "Robotics",
+      "Scratch Kids",
+      "React Native"
+    ]
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "description": "Ilm Hub is your knowledge center for IT, English, and many other fields.",
+    "quickLinks": "Quick Links",
+    "contact": "Contact Us",
+    "followUs": "Follow Us"
+  },
+  "navbar": {
+    "home": "Home",
+    "courses": "Courses",
+    "about": "About",
+    "contact": "Contact",
+    "blog": "Blog"
+  },
+  "about": {
+    "intro": {
+      "title": "About Us",
+      "description": "Ilm Hub is a center that teaches modern knowledge in an easy and understandable way. Our goal is to guide every student to achieve their dreams through modern education."
+    },
+    "missionTitle": "Our Mission",
+    "missionDesc": "Ilm Hub’s mission is to provide students with top-quality modern IT and language education, building a strong foundation for their future.",
+      "whyChooseTitle": "Why Choose Us?",
+  "whyChooseDesc": "Ilm Hub paves the way to excellence through modern education, experienced mentors, and practical courses.",
+  "whyChooseCards": {
+    "quality": "High Quality Education",
+    "mentors": "Experienced Mentors",
+    "practice": "Practical Trainings",
+    "certificate": "International Certificates"
+  },
+  "teamTitle": "Our Team",
+  "teamDesc": "The Ilm Hub team is a group of professionals united for student success.",
+  "faq": {
+  "title": "Frequently Asked Questions",
+  "items": [
+    { "q": "How do I enroll in Ilm Hub courses?", "a": "Fill out the registration form on the website and contact our managers." },
+    { "q": "When do courses start?", "a": "New groups start every month. Check with managers for exact dates." },
+    { "q": "How can I pay?", "a": "You can pay online or at our office." }
+  ]
+  }
+
+  },
+"contact": {
+  "title": "Contact Us",
+  "name": "Your Name",
+  "phone": "Your Phone",
+  "message": "Your Message",
+  "send": "Send"
+},
+"coursesIntro": {
+  "title": "Our Courses",
+  "subtitle": "A collection of modern courses to change your future.",
+  "cta": "Contact us"
+},
+"projects": {
+  "title": "Our Projects",
+  "viewProject": "View Project",
+  "ilmhubOJDesc": "Ilmhub OJ is an online judge platform to help students learn algorithms and programming.",
+  "aptitudeTestDesc": "Aptitude Test is a system to assess students' knowledge level through testing."
+}
+
+
+
+}

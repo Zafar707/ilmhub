@@ -1,0 +1,131 @@
+{
+  "nav": {
+    "home": "Bosh sahifa",
+    "about": "Biz haqimizda",
+    "courses": "Kurslar",
+    "team": "Jamoa",
+    "projects": "Loyihalar",
+    "contact": "Bog'lanish"
+  },
+  "intro": {
+    "title": "Ilm Hub o'quv markaziga xush kelibsiz",
+    "subtitle": "O'zingizni rivojlantiring va kelajagingizni yarating.",
+    "cta": "Bog'lanish"
+  },
+  "stats": {
+    "title": "Bizning Raqamli Ta'sirimiz",
+    "students": "Talabalar",
+    "courses": "Kurslar",
+    "teachers": "O'qituvchilar",
+    "graduates": "Bitiruvchilar"
+  },
+
+  "coursesPreview": {
+    "title": "Kurslar",
+    "details": "Batafsil",
+    "viewAll": "Barchasini ko'rish",
+    "close": "Yopish",
+    "level": "Darajasi",
+    "duration": "Davomiyligi",
+    "requirements": "Talablar",
+    "syllabus": "Dastur",
+    "categories": {
+      "barcha": "Barchasi",
+      "foundation": "Asosiy",
+      "backend": "Backend",
+      "bootcamp": "Bootcamp",
+      "english": "Ingliz tili",
+      "mobile": "Mobil dasturlash",
+      "kids": "Bolalar"
+    }
+  },
+  "marquee": {
+    "title": "Bizning kurslarimiz",
+    "items": [
+      "C++ Asoslari",
+      "Python Backend",
+      "React JS",
+      "Scratch Dasturlash",
+      "Arduino Loyihalari",
+      "Ingliz tili Advanced",
+      "Mobil Bootcamp",
+      "Frontend Dasturlash",
+      "Backend Dasturlash",
+      "Robotics",
+      "Scratch Kids",
+      "React Native"
+    ]
+  },
+  "footer": {
+    "rights": "Barcha huquqlar himoyalangan.",
+    "description": "Ilm Hub – bu sizning IT, ingliz tili va boshqa ko‘plab sohalardagi bilim markazingiz.",
+    "quickLinks": "Tezkor havolalar",
+    "contact": "Kontaktlar",
+    "followUs": "Bizni kuzating"
+  },
+  "navbar": {
+    "home": "Bosh sahifa",
+    "courses": "Kurslar",
+    "about": "Biz haqimizda",
+    "contact": "Aloqa",
+    "blog": "Blog"
+  },
+  "about": {
+    "intro": {
+      "title": "Biz haqimizda",
+      "description": "Ilm Hub – bu zamonaviy bilimlarni oson va tushunarli tarzda o‘rgatadigan markaz. Bizning maqsadimiz har bir o‘quvchi o‘z orzulariga yetishi uchun zamonaviy yo‘l ko‘rsatish."
+    },
+    "missionTitle": "Bizning Missiyamiz",
+    "missionDesc": "Ilm Hub missiyasi – o'quvchilarga zamonaviy IT va til bilimlarini eng yuqori sifatda yetkazish, ularning kelajagini qurishda mustahkam poydevor yaratish.",
+    "whyChooseTitle": "Nega bizni tanlashadi?",
+    "whyChooseDesc": "Ilm Hub – zamonaviy ta'lim, tajribali ustozlar va amaliy kurslar orqali mukammallikka yo‘l ochadi.",
+    "whyChooseCards": {
+      "quality": "Yuqori sifatli ta'lim",
+      "mentors": "Tajribali mentorlar",
+      "practice": "Amaliy mashg'ulotlar",
+      "certificate": "Xalqaro sertifikatlar"
+    },
+    "teamTitle": "Bizning jamoamiz",
+    "teamDesc": "Ilm Hub jamoasi – o‘z ishining ustalari, talabalarimiz muvaffaqiyati uchun birlashgan.",
+    "faq": {
+      "title": "Tez-tez beriladigan savollar",
+      "items": [
+        {
+          "q": "Ilm Hub kurslariga qanday yozilaman?",
+          "a": "Saytdagi ro'yxatdan o'tish formasini to'ldirib, menejerlarimiz bilan bog'laning."
+        },
+        {
+          "q": "Kurslar qachon boshlanadi?",
+          "a": "Har oy yangi guruhlar boshlanadi. Aniq sanani menejerlardan bilib olishingiz mumkin."
+        },
+        {
+          "q": "To'lovni qanday amalga oshiraman?",
+          "a": "To'lovni onlayn yoki ofisimiz orqali amalga oshirishingiz mumkin."
+        }
+      ]
+    }
+
+
+  },
+      "contact": {
+  "title": "Biz bilan bog'laning",
+  "name": "Ismingiz",
+  "phone": "Telefon raqamingiz",
+  "message": "Xabaringiz",
+  "send": "Yuborish"
+},
+"coursesIntro": {
+  "title": "Bizning kurslar",
+  "subtitle": "Kelajagingizni o'zgartiradigan zamonaviy kurslar to'plami.",
+  "cta": "Bog'lanish"
+},
+"projects": {
+  "title": "Bizning loyihalarimiz",
+  "viewProject": "Loyihani ko‘rish",
+  "ilmhubOJDesc": "Ilmhub OJ – o‘quvchilar uchun onlayn judge platformasi bo‘lib, algoritmlar va dasturlashni o‘rganishda yordam beradi.",
+  "aptitudeTestDesc": "Aptitude Test – talabalarni sinovdan o‘tkazish va bilim darajasini aniqlash tizimi."
+}
+
+
+
+}

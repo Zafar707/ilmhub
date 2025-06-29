@@ -1,35 +1,66 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import React, { useEffect, Suspense, lazy } from "react";
+import { Routes, Route } from "react-router-dom";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+import logo from "./assets/images/logo.png";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
-function App() {
-  const [count, setCount] = useState(0)
+import { useTheme } from "./context/ThemeContext";
+
+// Lazy loaded pages
+const Home = lazy(() => import("./pages/Home"));
+const About = lazy(() => import("./pages/About"));
+const Courses = lazy(() => import("./pages/Courses"));
+const Projects = lazy(() => import("./pages/Projects"));
+const Contact = lazy(() => import("./pages/Contact"));
+
+const App = () => {
+  const { theme } = useTheme();
+
+  useEffect(() => {
+    AOS.init({ duration: 800, once: true });
+  }, []);
 
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
-}
+    <div
+      className={`flex flex-col min-h-screen transition-colors duration-500 ${
+        theme === "dark" ? "bg-gray-900 text-white" : "bg-white text-gray-900"
+      }`}
+    >
+      <Navbar />
 
-export default App
+      <main className="flex-grow">
+    <Suspense
+  fallback={
+    <div className="flex flex-col justify-center items-center h-screen">
+      <img
+        src={logo}
+        alt="Loading..."
+        className="w-20 h-20 animate-pulse mb-4 rounded-full" // 🟢 rounded-full qo‘shildi
+      />
+      <h1 className="text-2xl font-bold bg-gradient-to-r from-cyan-500 to-green-400 bg-clip-text text-transparent animate-pulse">
+        Ilm Hub
+      </h1>
+    </div>
+  }
+>
+
+
+        >
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/courses" element={<Courses />} />
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/contact" element={<Contact />} />
+          </Routes>
+        </Suspense>
+      </main>
+
+      <Footer />
+    </div>
+  );
+};
+
+export default App;

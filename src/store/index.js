@@ -1,10 +1,8 @@
-import { configureStore } from '@reduxjs/toolkit';
-import statsReducer from './statsSlice';
+import { configureStore } from "@reduxjs/toolkit";
+import statsReducer from "./statsSlice";
 
-export const store = configureStore({
+export default configureStore({
   reducer: {
     stats: statsReducer,
   },
 });
-
-export default store;
