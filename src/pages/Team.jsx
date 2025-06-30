@@ -9,7 +9,7 @@ import FAQSection from "../components/about/FAQSection.jsx";
 const Team = () => {
   return (
     <main className="mt-30">
-      <TeamIntroSection />
+      <TeamIntroSection />``
       <TeamMembersSection />
       <FAQSection />
       <CTASection />
