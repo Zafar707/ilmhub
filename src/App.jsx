@@ -10,6 +10,7 @@ import { useTheme } from "./context/ThemeContext";
 
 // Lazy loaded pages
 const Home = lazy(() => import("./pages/Home"));
+const Team = lazy(() => import("./pages/Team"));
 const About = lazy(() => import("./pages/About"));
 const Courses = lazy(() => import("./pages/Courses"));
 const Projects = lazy(() => import("./pages/Projects"));
@@ -52,6 +53,7 @@ const App = () => {
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/courses" element={<Courses />} />
+            <Route path="/team" element={<Team />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>

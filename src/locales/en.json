@@ -115,8 +115,37 @@
   "viewProject": "View Project",
   "ilmhubOJDesc": "Ilmhub OJ is an online judge platform to help students learn algorithms and programming.",
   "aptitudeTestDesc": "Aptitude Test is a system to assess students' knowledge level through testing."
+},"team": {
+  "title": "Our Team",
+  "description": "Ilm Hub is backed by a strong and experienced team to help your growth."
+},
+  "feedbacks": {
+    "title": "Our Clients' Feedback",
+    "1": {
+      "feedback": "I learned a lot about Frontend in a short time thanks to IlmHub courses."
+    },
+    "2": {
+      "feedback": "The English lessons are very interesting and interactive, I recommend them."
+    },
+    "3": {
+      "feedback": "Backend courses are based on real projects, providing great experience."
+    }
+  },
+   "contact": {
+    "title": "Contact Us",
+    "name": "Your Name",
+    "phone": "Your Phone Number",
+    "message": "Your Message",
+    "send": "Send",
+    "success": "Your message has been sent!",
+    "error": "An error occurred. Please try again."
+  },
+  "footer": {
+    "miniContact": "Quick Contact",
+    "description": "Ilm Hub - modern learning center",
+    "contact": "Contact",
+    "rights": "All rights reserved."
+  }
 }
 
 
-
-}

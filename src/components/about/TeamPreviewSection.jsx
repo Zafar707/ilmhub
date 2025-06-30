@@ -6,27 +6,27 @@ import { FaFacebookF, FaInstagram } from "react-icons/fa";
 
 const teamMembers = [
   {
-    name: "Ali Karimov",
+    name: "Vohid",
     role: "Frontend Developer",
-    image: "/images/team1.jpg",
+    image: "../src/assets/images/vohid.png",
     socials: { facebook: "#", instagram: "#" },
   },
   {
-    name: "Dilnoza Tursunova",
+    name: "Dilnoza",
     role: "Backend Developer",
-    image: "/images/team2.jpg",
+    image: "../src/assets/images/women.png",
     socials: { facebook: "#", instagram: "#" },
   },
   {
-    name: "Javohir Bekchanov",
+    name: "Davron",
     role: "Python Instructor",
-    image: "/images/team3.jpg",
+    image: "../src/assets/images/davron.png",
     socials: { facebook: "#", instagram: "#" },
   },
   {
-    name: "Munisa Ergasheva",
+    name: "Munisa",
     role: "English Teacher",
-    image: "/images/team4.jpg",
+    image: "../src/assets/images/women.png",
     socials: { facebook: "#", instagram: "#" },
   },
 ];

@@ -22,21 +22,27 @@ const Navbar = () => {
       className="fixed top-0 left-0 w-full z-50 backdrop-blur-lg bg-white/70 dark:bg-gray-900/80 border-b border-cyan-500 dark:border-green-400 transition-colors duration-500"
     >
       <div className="container mx-auto flex justify-between items-center px-6 py-4">
-       <img
-    src={logo}
-    alt="Ilmhub"
-    className="w-10 h-10 rounded-full border-2 border-cyan-500 dark:border-green-400 object-cover"
-  />
-  <motion.h1
-    whileHover={{ scale: 1.1, textShadow: "0px 0px 10px #22d3ee" }}
-    className="text-2xl md:text-3xl mr-[4 q0px] font-extrabold text-cyan-600 dark:text-green-400 cursor-pointer leading-none"
-  >
-    ilmhub
-  </motion.h1>
+        <div className="flex gap-4">
+          <img
+            src={logo}
+            alt="Ilmhub"
+            className="w-10 h-10 rounded-full border-2 border-cyan-500 dark:border-green-400 object-cover"
+          />
+           <motion.h1
+          whileHover={{ scale: 1.1, textShadow: "0px 0px 10px #22d3ee" }}
+          className="text-2xl md:text-3xl mr-[40px] font-extrabold text-cyan-600 dark:text-green-400 cursor-pointer leading-none"
+        >
+          ilmhub
+        </motion.h1>
+        </div>
+        
 
         <nav className="hidden md:flex gap-8 text-lg items-center">
           {navLinks.map((item) => (
-            <motion.div whileHover={{ scale: 1.1, color: "#22d3ee" }} key={item}>
+            <motion.div
+              whileHover={{ scale: 1.1, color: "#22d3ee" }}
+              key={item}
+            >
               <NavLink
                 to={item === "home" ? "/" : `/${item}`}
                 className="hover:text-cyan-500 dark:hover:text-green-400 transition duration-300"

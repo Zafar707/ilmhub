@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import Tilt from "react-parallax-tilt";
 import { useTranslation } from "react-i18next";
 import { useTheme } from "../../context/ThemeContext";
 import MissionImage from "../../assets/images/mission.png"; // rasmni to‘g‘ri joyga qo‘y
@@ -21,11 +22,20 @@ const MissionSection = () => {
           whileInView={{ x: 0, opacity: 1 }}
           transition={{ duration: 0.8, type: "spring" }}
         >
+          <Tilt
+          tiltMaxAngleX={15}
+          tiltMaxAngleY={15}
+          perspective={1000}
+          scale={1.05}
+          transitionSpeed={1000}
+          className="rounded-3xl bg-gradient-to-br from-cyan-400 to-green-400 p-1 shadow-2xl"
+        >
           <img
             src={MissionImage}
             alt="Mission"
-            className="rounded-3xl shadow-2xl dark:shadow-green-500"
+            className="rounded-3xl shadow-2xl dark:shadow-green-500 w-full h-auto object-cover dark:brightness-90 transition duration-500"
           />
+        </Tilt>
         </motion.div>
 
         {/* Right: Content */}

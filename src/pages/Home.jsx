@@ -4,6 +4,7 @@ import Stats from "../components/Stats";
 import CoursesPreview from "../components/CoursesPreview";
 import MarqueeSection from "../components/MarqueeSection";
 import ContactSection from "../components/about/ContactSection";
+import Feedback from "../components/Feedback";
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
       <CoursesPreview/>
       <MarqueeSection />
       <Stats />
+      <Feedback />
       <ContactSection />
     </main>
   );

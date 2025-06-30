@@ -53,7 +53,7 @@ const CoursesIntroSection = () => {
         </motion.p>
 
         <motion.a
-          href="#courses"
+          href="./contact"
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
           className="inline-block bg-gradient-to-r from-cyan-500 to-green-400 text-white px-8 py-4 rounded-full font-bold shadow-lg hover:from-cyan-600 hover:to-green-500 transition"
@@ -63,7 +63,7 @@ const CoursesIntroSection = () => {
       </div>
 
       {/* Optional Decorative Elements */}
-      <motion.div
+      <motion.div 
         initial={{ scale: 0 }}
         whileInView={{ scale: 1 }}
         transition={{ duration: 2 }}

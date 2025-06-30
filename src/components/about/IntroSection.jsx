@@ -3,6 +3,7 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
+import Tilt from "react-parallax-tilt";
 import aboutImage from "../../assets/images/about.png";
 import { useTheme } from "../../context/ThemeContext";
 
@@ -30,18 +31,27 @@ const IntroSection = () => {
             {t("about.intro.description")}
           </p>
         </motion.div>
-
+      
         <motion.div
           initial={{ x: 50, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
           transition={{ duration: 0.8 }}
           className="md:w-1/2"
         >
+          <Tilt
+          tiltMaxAngleX={15}
+          tiltMaxAngleY={15}
+          perspective={1000}
+          scale={1.05}
+          transitionSpeed={1000}
+          className="rounded-3xl bg-gradient-to-br from-cyan-400 to-green-400 p-1 shadow-2xl"
+        >
           <img
             src={aboutImage}
             alt="About Ilm Hub"
-            className="rounded-3xl shadow-lg dark:shadow-green-500"
+            className="rounded-3xl shadow-lg dark:shadow-green-500 w-full h-auto object-cover dark:brightness-90 transition duration-500"
           />
+        </Tilt>
         </motion.div>
       </div>
     </section>

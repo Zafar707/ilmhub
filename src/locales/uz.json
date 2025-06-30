@@ -124,8 +124,46 @@
   "viewProject": "Loyihani ko‘rish",
   "ilmhubOJDesc": "Ilmhub OJ – o‘quvchilar uchun onlayn judge platformasi bo‘lib, algoritmlar va dasturlashni o‘rganishda yordam beradi.",
   "aptitudeTestDesc": "Aptitude Test – talabalarni sinovdan o‘tkazish va bilim darajasini aniqlash tizimi."
-}
+},
+"team": {
+  "title": "Bizning jamoamiz",
+  "description": "Ilm Hub kuchli va tajribali jamoasi bilan sizning rivojlanishingizga yordam beradi."
+},
+
+  "feedbacks": {
+    "title": "Mijozlarimiz fikri",
+    "1": {
+      "feedback": "IlmHub kurslari orqali qisqa vaqtda Frontend bo‘yicha ko‘p narsani o‘rgandim."
+    },
+    "2": {
+      "feedback": "Ingliz tili darslari juda qiziqarli va interaktiv o‘tadi, tavsiya qilaman."
+    },
+    "3": {
+      "feedback": "Backend kurslari real loyihalar asosida o‘rgatiladi, bu katta tajriba beradi."
+    }
+  },
+   
+  "contact": {
+    "title": "Biz bilan bog‘laning",
+    "name": "Ismingiz",
+    "phone": "Telefon raqamingiz",
+    "message": "Xabaringiz",
+    "send": "Yuborish",
+    "success": "Xabaringiz yuborildi!",
+    "error": "Xatolik yuz berdi. Qayta urinib ko‘ring."
+  },
+  "footer": {
+    "miniContact": "Tezkor bog‘lanish",
+    "description": "Ilm Hub - zamonaviy ta'lim markazi",
+    "contact": "Bog‘lanish",
+    "rights": "Barcha huquqlar himoyalangan."
+  }
 
 
 
 }
+
+
+
+
+
