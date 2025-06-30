@@ -5,7 +5,8 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { Sun, Moon } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useTheme } from "../context/ThemeContext";
-import logo from "../assets/images/logo.png"; // Adjust the path as necessary
+import logo from "../assets/images/logo.png";
+
 const Navbar = () => {
   const { t, i18n } = useTranslation();
   const navigate = useNavigate();
@@ -28,14 +29,13 @@ const Navbar = () => {
             alt="Ilmhub"
             className="w-10 h-10 rounded-full border-2 border-cyan-500 dark:border-green-400 object-cover"
           />
-           <motion.h1
-          whileHover={{ scale: 1.1, textShadow: "0px 0px 10px #22d3ee" }}
-          className="text-2xl md:text-3xl mr-[40px] font-extrabold text-cyan-600 dark:text-green-400 cursor-pointer leading-none"
-        >
-          ilmhub
-        </motion.h1>
+          <motion.h1
+            whileHover={{ scale: 1.1, textShadow: "0px 0px 10px #22d3ee" }}
+            className="text-2xl md:text-3xl mr-[40px] font-extrabold text-cyan-600 dark:text-green-400 cursor-pointer leading-none"
+          >
+            ilmhub
+          </motion.h1>
         </div>
-        
 
         <nav className="hidden md:flex gap-8 text-lg items-center">
           {navLinks.map((item) => (
@@ -112,9 +112,35 @@ const Navbar = () => {
                 {t(`nav.${item}`)}
               </NavLink>
             ))}
+
+            {/* Responsive Select Language */}
+            <select
+              onChange={(e) => i18n.changeLanguage(e.target.value)}
+              className="w-full bg-white dark:bg-gray-700 border border-cyan-500 dark:border-green-400 text-gray-800 dark:text-gray-200 px-3 py-2 rounded focus:outline-none focus:ring-2 focus:ring-cyan-400 dark:focus:ring-green-400 transition duration-300"
+            >
+              <option value="uz">Uz</option>
+              <option value="ru">Ru</option>
+              <option value="en">En</option>
+            </select>
+
+            {/* Responsive Dark Mode */}
             <button
-              onClick={() => navigate("/contact")}
-              className="block bg-cyan-500 dark:bg-green-400 text-white px-4 py-2 rounded-full font-semibold"
+              onClick={toggleTheme}
+              className="w-full flex justify-center p-2 rounded-full bg-cyan-100 dark:bg-gray-700 transition"
+            >
+              {theme === "dark" ? (
+                <Sun className="w-6 h-6 text-yellow-400" />
+              ) : (
+                <Moon className="w-6 h-6 text-gray-600 dark:text-gray-300" />
+              )}
+            </button>
+
+            <button
+              onClick={() => {
+                navigate("/contact");
+                setIsOpen(false);
+              }}
+              className="block w-full bg-cyan-500 dark:bg-green-400 text-white px-4 py-2 rounded-full font-semibold"
             >
               {t("nav.contact")}
             </button>
