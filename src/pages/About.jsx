@@ -5,7 +5,8 @@ import MissionVisionSection from "../components/about/MissionVisionSection.jsx";
 import WhyChooseUsSection from "../components/about/WhyChooseUsSection.jsx";
 import TeamPreviewSection from "../components/about/TeamPreviewSection.jsx";
 import CTASection from "../components/about/ContactSection.jsx";
-import FaqSection from "../components/about/FAQSection.jsx";
+import FAQSection from "../components/about/FAQSection";
+
 
 const About = () => {
   return (
@@ -13,7 +14,7 @@ const About = () => {
       <IntroSection />
       <MissionVisionSection />
       <WhyChooseUsSection />
-      <FaqSection/>
+      <FAQSection />
       <TeamPreviewSection />
       <CTASection />
     </main>
