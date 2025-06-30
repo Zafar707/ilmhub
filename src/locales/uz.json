@@ -157,7 +157,13 @@
     "description": "Ilm Hub - zamonaviy ta'lim markazi",
     "contact": "Bog‘lanish",
     "rights": "Barcha huquqlar himoyalangan."
-  }
+  },
+  "notfound": {
+  "title": "Sahifa topilmadi",
+  "description": "Kechirasiz, siz qidirgan sahifa mavjud emas yoki o'chirib tashlangan.",
+  "backHome": "Bosh sahifaga qaytish"
+}
+
 
 
 

@@ -7,6 +7,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 import { useTheme } from "./context/ThemeContext";
+import NotFoundPage from "./pages/NotFound";
 
 // Lazy loaded pages
 const Home = lazy(() => import("./pages/Home"));
@@ -56,6 +57,7 @@ const App = () => {
             <Route path="/team" element={<Team />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="*" element={<NotFoundPage />} />
           </Routes>
         </Suspense>
       </main>

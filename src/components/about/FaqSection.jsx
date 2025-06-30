@@ -3,7 +3,7 @@ import { useTranslation } from "react-i18next";
 import { motion, AnimatePresence } from "framer-motion";
 import { useTheme } from "../../context/ThemeContext";
 
-const FaqSection = () => {
+const FAQSection = () => {
   const { t } = useTranslation();
   const { theme } = useTheme();
   const [openIndex, setOpenIndex] = useState(null);
@@ -74,4 +74,4 @@ const FaqSection = () => {
   );
 };
 
-export default FaqSection;
+export default FAQSection;
