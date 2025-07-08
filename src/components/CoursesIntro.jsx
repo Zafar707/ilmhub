@@ -1,82 +1,146 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import { motion } from "framer-motion";
-import { useTheme } from "../context/ThemeContext";
 import { useTranslation } from "react-i18next";
-import { FaLaptopCode } from "react-icons/fa";
+import { useTheme } from "../context/ThemeContext";
+import { Link } from "react-router-dom";
 
-const CoursesIntroSection = () => {
-  const { theme } = useTheme();
+// Lucide React ikonkalari
+import { ArrowRight } from 'lucide-react'; // Yoki UserPlus
+// import { UserPlus } from 'lucide-react';
+
+const CoursesIntro = () => {
   const { t } = useTranslation();
+  const { theme } = useTheme();
+  const canvasRef = useRef(null); // Kanvas uchun referens
+
+  // Kanvasdagi yulduzlar animatsiyasi logikasi
+  useEffect(() => {
+    const canvas = canvasRef.current;
+    if (!canvas) return;
+    const ctx = canvas.getContext("2d");
+    let animationFrameId;
+
+    const particles = [];
+    const numParticles = 100;
+    const maxRadius = 1.5;
+    const maxSpeed = 0.3;
+    const particleColor = theme === "dark" ? "240, 240, 240" : "100, 100, 100";
+
+    const createParticle = () => {
+      return {
+        x: Math.random() * canvas.width,
+        y: Math.random() * canvas.height,
+        radius: Math.random() * maxRadius + 0.5,
+        dx: (Math.random() - 0.5) * maxSpeed,
+        dy: (Math.random() - 0.5) * maxSpeed,
+        alpha: Math.random() * 0.6 + 0.2,
+      };
+    };
+
+    for (let i = 0; i < numParticles; i++) {
+      particles.push(createParticle());
+    }
+
+    const animateParticles = () => {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+      particles.forEach((p) => {
+        p.x += p.dx;
+        p.y += p.dy;
+
+        if (p.x < -p.radius) p.x = canvas.width + p.radius;
+        if (p.x > canvas.width + p.radius) p.x = -p.radius;
+        if (p.y < -p.radius) p.y = canvas.height + p.radius;
+        if (p.y > canvas.height + p.radius) p.y = -p.radius;
+
+        ctx.beginPath();
+        ctx.arc(p.x, p.y, p.radius, 0, Math.PI * 2);
+        ctx.fillStyle = `rgba(${particleColor}, ${p.alpha})`;
+        ctx.fill();
+      });
+      animationFrameId = requestAnimationFrame(animateParticles);
+    };
+
+    const handleResize = () => {
+      canvas.width = canvas.offsetWidth;
+      canvas.height = canvas.offsetHeight;
+    };
+
+    handleResize();
+    animateParticles();
+    window.addEventListener('resize', handleResize);
+
+    return () => {
+      cancelAnimationFrame(animationFrameId);
+      window.removeEventListener('resize', handleResize);
+    };
+  }, [theme]);
 
   return (
     <section
-  className={`relative py-24 px-6 md:px-20 overflow-hidden transition-colors duration-500 rounded-3xl mx-4 md:mx-20 shadow-xl ${
-    theme === "dark" ? "bg-gray-900" : "bg-gradient-to-br from-cyan-50 to-green-50"
-  }`}
->
+      className={`relative py-20 md:py-32 overflow-hidden
+        ${theme === "dark"
+          ? "bg-gradient-to-br from-gray-900 via-zinc-950 to-black text-gray-100"
+          : "bg-gradient-to-br from-white via-gray-50 to-blue-50 text-gray-900"
+        }`}
+    >
+      <canvas
+        ref={canvasRef}
+        className="absolute inset-0 w-full h-full pointer-events-none opacity-40 z-0"
+      ></canvas>
 
-      {/* Background Gradient Animation */}
-      <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 0.2 }}
-        transition={{ duration: 2 }}
-        className="absolute inset-0 bg-gradient-to-r from-purple-500 via-cyan-500 to-green-400 blur-3xl opacity-20"
-      />
+       <div className={`absolute inset-0 z-10
+        ${theme === 'dark' ? 'bg-gradient-to-t from-gray-900/70 via-transparent to-transparent' : 'bg-gradient-to-t from-white/70 via-transparent to-transparent'}
+       `}></div>
 
-      <div className="relative z-10 flex flex-col items-center text-center">
-        <motion.div
-          initial={{ y: -50, opacity: 0 }}
-          whileInView={{ y: 0, opacity: 1 }}
-          transition={{ duration: 0.8 }}
-          className="flex items-center justify-center bg-cyan-100 dark:bg-green-800 text-cyan-600 dark:text-green-200 px-4 py-2 rounded-full mb-6"
-        >
-          <FaLaptopCode className="mr-2" />
-          <span className="text-sm font-medium">{t("coursesPreview.title")}</span>
-        </motion.div>
 
+      <div className="max-w-6xl mx-auto px-4 relative z-20 text-center">
         <motion.h1
-          initial={{ y: 50, opacity: 0 }}
-          whileInView={{ y: 0, opacity: 1 }}
-          transition={{ duration: 1 }}
-          className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-cyan-500 to-green-400 bg-clip-text text-transparent dark:from-green-300 dark:to-cyan-400"
+          initial={{ opacity: 0, y: -20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6 }}
+          className={`text-4xl md:text-5xl lg:text-6xl font-extrabold mb-6
+            ${theme === 'dark'
+              ? 'bg-gradient-to-r from-blue-400 to-sky-500 bg-clip-text text-transparent'
+              : 'text-gray-800'
+            }`}
         >
-          {t("coursesIntro.title", "Bizning kurslarimiz bilan kelajagingizni yarating")}
+          {t("coursesIntro.title")}
         </motion.h1>
 
         <motion.p
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          transition={{ duration: 1.2 }}
-          className="max-w-2xl mx-auto mb-8 text-gray-600 dark:text-gray-300 text-lg"
+          initial={{ opacity: 0, y: -20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.7, delay: 0.1 }}
+          className={`text-lg md:text-xl max-w-3xl mx-auto mb-8
+            ${theme === 'dark' ? 'text-gray-300' : 'text-gray-600'}`}
         >
-          {t("coursesIntro.description", "Zamonaviy IT va til kurslarimiz orqali o'zingizni rivojlantiring va orzularingiz sari birinchi qadamni qo'ying.")}
+          {t("coursesIntro.description")}
         </motion.p>
 
-        <motion.a
-          href="./contact"
-          whileHover={{ scale: 1.05 }}
-          whileTap={{ scale: 0.95 }}
-          className="inline-block bg-gradient-to-r from-cyan-500 to-green-400 text-white px-8 py-4 rounded-full font-bold shadow-lg hover:from-cyan-600 hover:to-green-500 transition"
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.7, delay: 0.2 }}
         >
-          {t("coursesIntro.cta", "Kurslarni ko'rish")}
-        </motion.a>
+          <Link
+            to="/contact" 
+            className={`inline-flex items-center justify-center px-8 py-3 rounded-full text-lg font-semibold shadow-lg transform transition-all duration-300
+              ${theme === 'dark'
+                ? 'bg-gradient-to-r from-blue-600 to-sky-700 text-white hover:from-blue-700 hover:to-sky-800'
+                : 'bg-gradient-to-r from-blue-500 to-sky-600 text-white hover:from-blue-600 hover:to-sky-700'
+              }
+              hover:scale-105 focus:outline-none focus:ring-2 focus:ring-offset-2
+              ${theme === 'dark' ? 'focus:ring-blue-400 focus:ring-offset-gray-900' : 'focus:ring-blue-300 focus:ring-offset-white'}`}
+          >
+            {t("coursesIntro.ctaButtonRegister")}
+            <ArrowRight className="ml-2 w-5 h-5" /> {/* Yoki UserPlus */}
+            {/* <UserPlus className="ml-2 w-5 h-5" /> */}
+          </Link>
+        </motion.div>
       </div>
-
-      {/* Optional Decorative Elements */}
-      <motion.div 
-        initial={{ scale: 0 }}
-        whileInView={{ scale: 1 }}
-        transition={{ duration: 2 }}
-        className="absolute top-10 right-10 w-32 h-32 rounded-full bg-gradient-to-br from-cyan-400 to-green-400 opacity-30 blur-2xl"
-      />
-      <motion.div
-        initial={{ scale: 0 }}
-        whileInView={{ scale: 1 }}
-        transition={{ duration: 2.5 }}
-        className="absolute bottom-10 left-10 w-40 h-40 rounded-full bg-gradient-to-br from-green-400 to-cyan-400 opacity-30 blur-2xl"
-      />
     </section>
   );
 };
 
-export default CoursesIntroSection;
+export default CoursesIntro;

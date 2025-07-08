@@ -5,17 +5,19 @@ import Footer from "./components/Footer";
 import logo from "./assets/images/logo.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
-
 import { useTheme } from "./context/ThemeContext";
+import { motion } from "framer-motion";
 import NotFoundPage from "./pages/NotFound";
 
-// Lazy loaded pages
 const Home = lazy(() => import("./pages/Home"));
 const Team = lazy(() => import("./pages/Team"));
 const About = lazy(() => import("./pages/About"));
 const Courses = lazy(() => import("./pages/Courses"));
 const Projects = lazy(() => import("./pages/Projects"));
 const Contact = lazy(() => import("./pages/Contact"));
+const Offerta = lazy(() => import("./pages/Offerta"));
+const VacanciesPage = lazy(() => import("./pages/VacanciesPage"));
+const BlogPage = lazy(() => import("./pages/BlogPage.jsx"));
 
 const App = () => {
   const { theme } = useTheme();
@@ -33,30 +35,32 @@ const App = () => {
       <Navbar />
 
       <main className="flex-grow">
-    <Suspense
-  fallback={
-    <div className="flex flex-col justify-center items-center h-screen">
-      <img
-        src={logo}
-        alt="Loading..."
-        className="w-20 h-20 animate-pulse mb-4 rounded-full" // 🟢 rounded-full qo‘shildi
-      />
-      <h1 className="text-2xl font-bold bg-gradient-to-r from-cyan-500 to-green-400 bg-clip-text text-transparent animate-pulse">
-        Ilm Hub
-      </h1>
-    </div>
-  }
->
-
-
-        
+        <Suspense
+          fallback={
+            <div className="flex flex-col justify-center items-center h-screen">
+              <motion.img
+                src={logo}
+                alt="Loading..."
+                className="w-20 h-20 rounded-full animate-pulse mb-4"
+                animate={{ scale: [1, 1.2, 1], opacity: [0.8, 1, 0.8] }}
+                transition={{ duration: 1.5, repeat: Infinity, ease: "easeInOut" }}
+              />
+              <h1 className="text-2xl font-bold bg-gradient-to-r from-cyan-500 to-green-400 bg-clip-text text-transparent">
+                Ilm Hub
+              </h1>
+            </div>
+          }
+        >
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/courses" element={<Courses />} />
             <Route path="/team" element={<Team />} />
+            <Route path="/blog" element={<BlogPage />} />
+            <Route path='/offerta' element={<Offerta />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/vacancies" element={<VacanciesPage />} />
             <Route path="*" element={<NotFoundPage />} />
           </Routes>
         </Suspense>

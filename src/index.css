@@ -2,6 +2,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+body {
+  font-family: 'Poppins', sans-serif;
+}
 
 /* body uchun o‘chirish */
 body {
@@ -22,3 +28,76 @@ body {
   animation: stars 60s linear infinite;
 }
 
+@keyframes pulse-border-light {
+  0% {
+    box-shadow: 0 0 0 0px rgba(0, 180, 180, 0.3);
+  }
+  50% {
+    box-shadow: 0 0 0 8px rgba(0, 180, 180, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0px rgba(0, 180, 180, 0.3);
+  }
+}
+
+@keyframes pulse-border-dark {
+  0% {
+    box-shadow: 0 0 0 0px rgba(0, 255, 255, 0.4);
+  }
+  50% {
+    box-shadow: 0 0 0 8px rgba(0, 255, 255, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0px rgba(0, 255, 255, 0.4);
+  }
+}
+
+.animate-pulse-border-light {
+  animation: pulse-border-light 2s infinite cubic-bezier(0.4, 0, 0.6, 1);
+}
+
+.animate-pulse-border-dark {
+  animation: pulse-border-dark 2s infinite cubic-bezier(0.4, 0, 0.6, 1);
+}
+/* Firefox */
+.custom-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: #888 #f1f1f1;
+}
+
+/* Chrome, Edge, Safari */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 8px;
+  height: 8px; /* Agar gorizontal scrollbar ham bo'lsa */
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #f1f1f1; /* scrollbar fon rangi */
+  border-radius: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #888; /* scrollbar tutqichi rangi */
+  border-radius: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #555; /* hoverdagi tutqich rangi */
+}
+
+/* Dark mode uchun */
+.dark .custom-scrollbar {
+  scrollbar-color: #666 #333;
+}
+
+.dark .custom-scrollbar::-webkit-scrollbar-track {
+  background: #333;
+}
+
+.dark .custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #666;
+}
+
+.dark .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #999;
+}

@@ -2,15 +2,14 @@ import React from "react";
 import CoursesIntro from "../components/CoursesIntro";
 import CoursesPreview from "../components/CoursesPreview";
 import { Contact } from "lucide-react";
-import ContactSection from "../components/about/ContactSection";
+import ContactUs from "../components/about/ContactUs";
 
 const Courses = () => {
   return (
-    <div className="mt-30">
-      {/* Intro Section */}
+    <div >
       <CoursesIntro />
       <CoursesPreview />
-      <ContactSection />
+      <ContactUs />
     </div>
   );
 };

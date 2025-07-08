@@ -1,157 +1,291 @@
 {
-  "nav": {
+   "nav": {
     "home": "Home",
     "about": "About Us",
+    "courses": "Courses",
     "team": "Team",
     "projects": "Projects",
-    "courses": "Courses",
+    "offerta": "Public Offer",
+    "vacancies": "Vacancies",
     "blog": "Blog",
-    "contact": "Contact",
-    "contactBtn": "Get in Touch"
+    "call_us": "Call us",
+    "contact": "Contact"
   },
-  "intro": {
-    "title": "Enhance your knowledge with Ilm Hub",
-    "subtitle": "IT, language, and kids courses – all in one place.",
-    "cta": "View Courses"
+"intro": {
+    "carousel_text1": "LEARN PROGRAMMING",
+    "carousel_text2": "IN A COMFORTABLE",
+    "carousel_text3": "ENVIRONMENT",
+    "main_subtitle": "Deeply learn modern programming languages and technologies through our practice-oriented courses. Grow with experienced mentors.",
+    "form_consultation_title": "Free Consultation",
+    "form_consultation_text": "Have questions or can't decide on a course? We will contact you and provide detailed information.",
+    "form_name_placeholder": "Name",
+    "form_phone_placeholder": "XX XXX XX XX",
+    "form_submit": "Get Information",
+    "form_sending": "Sending...",
+    "form_success_message": "Your application has been accepted!",
+    "form_success_subtitle": "We will contact you shortly.",
+    "form_error_message": "An error occurred while sending data.",
+    "form_error_subtitle": "Please try again later or contact us directly."
   },
-  "stats": {
-    "title": "Our Impact in Numbers",
-    "students": "Students",
-    "courses": "Courses",
-    "teachers": "Teachers",
-    "graduates": "Graduates"
-  },
-  "coursesPreview": {
-    "title": "Courses",
+     "coursesPreview": {
+    "title": "OUR COURSES",
+    "categories": {
+      "all": "All",
+      "foundation": "Foundation",
+      "kids": "Kids",
+      "backend": "Backend",
+      "bootcamps": "Bootcamps",
+      "ai": "AI",
+      "mobile": "Mobile",
+      "english": "English"
+    },
+    "level": "Level",
     "details": "Details",
     "viewAll": "View All",
-    "close": "Close",
-    "level": "Level",
+    "price": "Price",
     "duration": "Duration",
     "requirements": "Requirements",
-    "syllabus": "Syllabus",
-    "categories": {
-      "barcha": "All",
-      "foundation": "Foundation",
-      "backend": "Backend",
-      "bootcamp": "Bootcamp",
-      "english": "English",
-      "mobile": "Mobile Development",
-      "kids": "Kids"
+    "syllabusTitle": "Syllabus",
+    "enrollNow": "Enroll Now"
+  },
+   "aboutUs": {
+    "title": "WHY CHOOSE US?",
+    "quality": {
+      "title": "Quality Education",
+      "description": "High-quality education with the best experienced teachers. We focus on practical skills."
+    },
+    "career": {
+      "title": "Career Support",
+      "description": "We help our graduates with job placement, because their success is our success."
+    },
+    "flexibility": {
+      "title": "Flexibility",
+      "description": "Online and offline courses, flexible class schedules to fit your timetable."
+    },
+    "community": {
+      "title": "Vibrant Community",
+      "description": "Our students become part of a thriving IT community, fostering opportunities for collaboration and learning."
+    },
+    "innovation": {
+      "title": "Innovative Approach",
+      "description": "We continuously update and integrate modern technologies into our curricula."
+    },
+    "trust": {
+      "title": "Trust and Results",
+      "description": "We provide reliable knowledge through quality education and guarantee real results for our graduates."
     }
   },
-  "marquee": {
-    "title": "Our Courses",
-    "items": [
-      "C++ Fundamentals",
-      "Python Backend",
-      "React JS",
-      "Scratch Coding",
-      "Arduino Projects",
-      "English Advanced",
-      "Mobile Bootcamp",
-      "Frontend Development",
-      "Backend Development",
-      "Robotics",
-      "Scratch Kids",
-      "React Native"
-    ]
-  },
-  "footer": {
-    "rights": "All rights reserved.",
-    "description": "Ilm Hub is your knowledge center for IT, English, and many other fields.",
-    "quickLinks": "Quick Links",
-    "contact": "Contact Us",
-    "followUs": "Follow Us"
-  },
-  "navbar": {
-    "home": "Home",
+  "header": {
+    "about": "About Us",
     "courses": "Courses",
-    "about": "About",
-    "contact": "Contact",
-    "blog": "Blog"
+    "events": "Events",
+    "reviews": "Reviews",
+    "contact": "Contact"
   },
-  "about": {
-    "intro": {
-      "title": "About Us",
-      "description": "Ilm Hub is a center that teaches modern knowledge in an easy and understandable way. Our goal is to guide every student to achieve their dreams through modern education."
-    },
-    "missionTitle": "Our Mission",
-    "missionDesc": "Ilm Hub’s mission is to provide students with top-quality modern IT and language education, building a strong foundation for their future.",
-      "whyChooseTitle": "Why Choose Us?",
-  "whyChooseDesc": "Ilm Hub paves the way to excellence through modern education, experienced mentors, and practical courses.",
-  "whyChooseCards": {
-    "quality": "High Quality Education",
-    "mentors": "Experienced Mentors",
-    "practice": "Practical Trainings",
-    "certificate": "International Certificates"
-  },
-  "teamTitle": "Our Team",
-  "teamDesc": "The Ilm Hub team is a group of professionals united for student success.",
-  "faq": {
-  "title": "Frequently Asked Questions",
-  "items": [
-    { "q": "How do I enroll in Ilm Hub courses?", "a": "Fill out the registration form on the website and contact our managers." },
-    { "q": "When do courses start?", "a": "New groups start every month. Check with managers for exact dates." },
-    { "q": "How can I pay?", "a": "You can pay online or at our office." }
-  ]
-  }
-
-  },
-"contact": {
-  "title": "Contact Us",
-  "name": "Your Name",
-  "phone": "Your Phone",
-  "message": "Your Message",
-  "send": "Send"
-},
-"coursesIntro": {
-  "title": "Our Courses",
-  "subtitle": "A collection of modern courses to change your future.",
-  "cta": "Contact us"
-},
-"projects": {
-  "title": "Our Projects",
-  "viewProject": "View Project",
-  "ilmhubOJDesc": "Ilmhub OJ is an online judge platform to help students learn algorithms and programming.",
-  "aptitudeTestDesc": "Aptitude Test is a system to assess students' knowledge level through testing."
-},"team": {
-  "title": "Our Team",
-  "description": "Ilm Hub is backed by a strong and experienced team to help your growth."
-},
   "feedbacks": {
-    "title": "Our Clients' Feedback",
-    "1": {
-      "feedback": "I learned a lot about Frontend in a short time thanks to IlmHub courses."
-    },
-    "2": {
-      "feedback": "The English lessons are very interesting and interactive, I recommend them."
-    },
-    "3": {
-      "feedback": "Backend courses are based on real projects, providing great experience."
-    }
+    "title": "Feedback",
+    "1.feedback": "Ilm Hub courses took my career to the next level! The instructors are highly professional.",
+    "2.feedback": "The courses are clear and practical. I learned backend development and started my own project.",
+    "3.feedback": "Modern programs and a great team. I recommend Ilm Hub to everyone!"
   },
-   "contact": {
+  "contact": {
     "title": "Contact Us",
-    "name": "Your Name",
-    "phone": "Your Phone Number",
-    "message": "Your Message",
+    "name": "Name",
+    "phone": "Phone Number",
+    "message": "Message",
     "send": "Send",
-    "success": "Your message has been sent!",
-    "error": "An error occurred. Please try again."
+    "success": "Your message has been sent successfully!",
+    "error": "An error occurred while sending the message. Please try again."
   },
-  "footer": {
-    "miniContact": "Quick Contact",
-    "description": "Ilm Hub - modern learning center",
-    "contact": "Contact",
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "q1": {
+      "question": "How can I enroll in your courses?",
+      "answer": "Enrolling in our courses is very simple. Navigate to the \"Courses\" section on our website, choose the course that suits you, and click the \"Enroll\" button. Our managers will contact you shortly."
+    },
+    "q2": {
+      "question": "What is the format of your classes?",
+      "answer": "Our classes are conducted offline in modern, well-equipped classrooms by experienced instructors. An individual approach is ensured for each student."
+    },
+    "q3": {
+      "question": "Do you provide a certificate upon course completion?",
+      "answer": "Yes, every student who successfully completes the course will receive a certificate that meets international standards."
+    },
+    "q4": {
+      "question": "What payment methods are available?",
+      "answer": "Payments can be made in cash, bank transfer, or through online payment systems. Installment payment options are also available."
+    },
+    "q5": {
+      "question": "How is the class schedule structured?",
+      "answer": "The class schedule varies depending on the course. Typically, classes are held 3 times a week, each lasting 1.5-2 hours. Detailed information can be found on the chosen course page."
+    },
+    "q6": {
+      "question": "Are prior knowledge/skills required?",
+      "answer": "Some of our courses (e.g., Foundation) do not require prior knowledge, while others may require certain basic skills. The requirements for each course are specified in its description."
+    },
+    "q7": {
+      "question": "Do you offer online classes?",
+      "answer": "While the primary focus is on offline classes, online formats may be offered for some specialized courses or groups. Please contact us for more detailed information."
+    },
+    "q8": {
+      "question": "What is the qualification of your instructors?",
+      "answer": "Our instructors are highly qualified specialists in their fields, possessing years of practical experience and pedagogical skills. They continuously update their knowledge."
+    },
+    "q9": {
+      "question": "Do you assist graduates with employment?",
+      "answer": "Yes, we help our best graduates with employment by recommending them to partner companies. We also provide consultations on resume writing and improving interview skills."
+    },
+    "still_have_questions": "Still have questions?",
+    "contact_us": "Contact us"
+  },
+ "footer": {
+    "description": "Ilm Hub is an innovative educational center for mastering future professions and achieving success in the IT field.",
+    "quickLinksTitle": "Quick Links",
+    "contactInfoTitle": "Contact Information",
+    "findUsTitle": "Find Us",
+    "address": "Tashkent city, Chilanzar district, Bunyodkor highway, 29",
     "rights": "All rights reserved."
   },
-  "notfound": {
-  "title": "Page not found",
-  "description": "Sorry, the page you are looking for does not exist or has been removed.",
-  "backHome": "Back to Home"
+"contact": {
+    "title": "Contact and Location",
+    "addressTitle": "Our Address",
+    "addressValue": "Tashkent city, Shaykhontohur district, Beruni street 3A",
+    "showOnMap": "Show on map",
+    "callUs": "Call Us",
+    "sendMessageTitle": "Contact us, and we will provide you with full information.",
+    "sendMessageDescription": "Do you still have questions or need information about course admission? Contact us for detailed information.",
+    "yourNamePlaceholder": "Name",
+    "yourPhonePlaceholder": "Phone number (+998 __ _______)",
+    "yourMessagePlaceholder": "Message",
+    "sendMessageButton": "Get Information",
+    "sending": "Sending...",
+    "sendSuccess": "Your message has been sent successfully! We will contact you soon.",
+    "sendError": "An error occurred while sending the message. Please try again.",
+    "socialTitle": "Our Social Networks",
+    "mapTitle": "Our location on the map"
+  },
+    "stats": {
+    "mainTitle": "Our Achievements",
+    "studentsLabel": "Students",
+    "graduatesLabel": "Graduates",
+    "programsLabel": "Proprietary Programs",
+    "grantsLabel": "Grant-winning Students"
+  },
+      "coursesIntro": {
+    "title": "Start Your IT Career With Us",
+    "description": "Become a highly skilled specialist through our courses, developed based on the latest technologies and practical projects. Our experienced instructors will assist you every step of the way.",
+    "ctaButton": "View Courses",
+    "ctaButtonRegister": "Enroll in Courses"
+  },
+    "aboutIntro": {
+    "title": "Our Story: From Knowledge to Problem Solving",
+    "description": "Ilm Hub was founded with the mission to equip young professionals with the profound knowledge and practical skills necessary to succeed in the digital world. Our core values include continuous learning, innovation, and teamwork.",
+    "ctaButton": "Learn More",
+    "imageAlt": "Ilm Hub classroom, students in class"
+  },
+   "missionSection": {
+    "title": "Our Mission: Cultivating Future Leaders",
+    "description": "Ilm Hub's core mission is to shape creative and innovative professionals who meet the demands of the IT industry by providing every student with modern knowledge and practical skills. We not only educate but also support our students' personal and professional growth.",
+    "ctaButton": "Our Values",
+    "imageAlt": "Ilm Hub students in class, working on computers"
+  },
+  "valuesModal": {
+    "title": "Our Core Values",
+    "close": "Close",
+    "value1Title": "Innovation and Continuous Development",
+    "value1Description": "We constantly seek new technologies and pedagogical approaches, updating our educational programs to meet contemporary demands. We encourage our students to pursue continuous learning and embrace novelty.",
+    "value2Title": "Practicality and Results-Oriented Approach",
+    "value2Description": "Every course we offer is built upon practical projects and real-world problems. Our goal is to reinforce students' theoretical knowledge with hands-on skills and provide them with real work experience.",
+    "value3Title": "Team Spirit and Support",
+    "value3Description": "At Ilm Hub, we foster an environment based on mutual respect, collaboration, and support. Our team and students form a large family that supports each other.",
+    "value4Title": "Personal Growth and Unlocking Potential",
+    "value4Description": "We consider each student's individual interests and abilities. We create conditions for them to fully realize their potential and guide them towards success in their future careers."
+  },
+  "teamSection": {
+    "title": "Our Team of Instructors",
+    "member1Name": "Vahid Abduhakimov",
+    "member1Job": "Full Stack Developer",
+    "member2Name": "Davron Abduhakimov",
+    "member2Job": "Co-founder, Full Stack Developer",
+    "member3Name": "Munisa Tojibova",
+    "member3Job": "English Language Teacher",
+    "member4Name": "Zarina Validjanova",
+    "member4Job": "English Language Teacher"
+  },
+    "teamIntro": {
+    "title": "Our Team of Qualified Specialists",
+    "description": "Every instructor at Ilm Hub is a true expert in their field, possessing deep knowledge and extensive practical experience. They are ready to share their expertise, help you overcome challenges, and find your path in the IT industry."
+  },
+  "projectsPage": {
+    "title": "Our Students' Amazing Projects",
+    "studentName": "Student: {{name}}",
+    "viewProject": "View Project",
+    "project1Title": "Z-Building Construction Website",
+    "student1Name": "Zafar",
+    "project2Title": "Elite Building Company Website",
+    "student2Name": "Javohir",
+    "project3Title": "IT-Complex Marketing Website",
+    "student3Name": "Ibrohim",
+    "project4Title": "NetStroring Online Store",
+    "student4Name": "Nuriddin"
+  },
+   "companiesSection": {
+    "title": "Companies Where Our Graduates Work",
+    "description": "Students have the opportunity to intern at the following companies during their studies"
+  },
+   "publicOfferPage": {
+    "title": "PUBLIC OFFER",
+    "section1Title": "1. General Provisions",
+    "section1Text1": "This document (hereinafter – the Offer) is a public offer of the Non-State Educational Institution \"Ilm Hub\" (hereinafter – the Educational Institution) for the conclusion of an agreement on the provision of educational services. The Offer is binding on any legal or natural person (hereinafter – the Customer) who has accepted it, in accordance with the requirements of Articles 367 and 369 of the Civil Code of the Republic of Uzbekistan.",
+    "section1Text2": "Full and unconditional acceptance of the Offer is carried out by the Customer by making payment in accordance with the invoice issued by the Educational Institution. From the moment of payment, the terms of the Offer become binding on the Customer and the Educational Institution.",
+
+    "section2Title": "2. Subject of the Offer",
+    "section2ListItem1": "The Educational Institution undertakes to provide the Customer (or its student) with educational services in accordance with educational programs and plans.",
+    "section2ListItem2": "Educational services are provided in accordance with the current license of the Educational Institution.",
+    "section2ListItem3": "The name, duration, cost, and order of training courses are specified on the official website of the Educational Institution or in a separate agreement.",
+    "section2ListItem4": "The Educational Institution provides services within the terms agreed upon in the contract, after payment by the Customer.",
+
+    "section3Title": "3. Rights and Obligations of the Parties",
+    "section3Text": "Educational Institution: to provide educational services qualitatively, organize the educational process, ensure educational programs. Customer: to pay for services on time, comply with the internal regulations of the Educational Institution, ensure the student's discipline.",
+
+    "contactsTitle": "4. Details and Contacts",
+    "address": "Address",
+    "email": "Email",
+    "phone": "Phone",
+    "offerDate": "This offer is valid from January 1, 2024"
+  },
+  "vacanciesPage": {
+    "title": "Available Vacancies",
+    "postedDate": "Posted Date: {{date}}",
+    "salary": "Salary",
+    "applyNow": "Apply Now",
+
+    "vacancy1Title": "Frontend Developer",
+    "vacancy1Description": "We are looking for an experienced Frontend Developer with React.js expertise to join our team. Create innovative web applications with us.",
+    "vacancy1Req1": "Strong knowledge of React.js, Next.js, Redux",
+    "vacancy1Req2": "Proficiency in HTML, CSS (TailwindCSS/Sass), JavaScript (ES6+)",
+    "vacancy1Req3": "Experience working with RESTful APIs",
+    "vacancy1Salary": "8,000,000 - 15,000,000 UZS",
+
+    "vacancy2Title": "Backend Developer",
+    "vacancy2Description": "We are seeking a Backend Developer with experience in Node.js or Python (Django/Flask). Develop scalable and high-performance server-side applications.",
+    "vacancy2Req1": "Experience with Node.js (Express) or Python (Django/Flask)",
+    "vacancy2Req2": "Work with databases (PostgreSQL, MongoDB)",
+    "vacancy2Req3": "API design and implementation",
+    "vacancy2Salary": "9,000,000 - 18,000,000 UZS",
+
+    "vacancy3Title": "UI/UX Designer",
+    "vacancy3Description": "Creative UI/UX designer needed to design user interfaces and experiences. Make our products intuitive and appealing to users.",
+    "vacancy3Req1": "Proficiency in Figma, Adobe XD, or Sketch",
+    "vacancy3Req2": "Knowledge of user-centered design principles",
+    "vacancy3Req3": "Portfolio submission is mandatory",
+    "vacancy3Salary": "7,000,000 - 12,000,000 UZS",
+
+    "vacancy4Title": "Marketing Manager",
+    "vacancy4Description": "Experienced Marketing Manager to help develop and implement marketing strategies. Contribute to the growth of our brand.",
+    "vacancy4Req1": "Experience in marketing field",
+    "vacancy4Req2": "Knowledge of digital marketing tools (SEO, SMM, Google Ads)",
+    "vacancy4Req3": "Communication and presentation skills",
+    "vacancy4Salary": "6,000,000 - 11,000,000 UZS"
+  }
 }
-
-}
-
-

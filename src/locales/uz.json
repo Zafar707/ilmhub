@@ -1,175 +1,291 @@
 {
-  "nav": {
+    "nav": {
     "home": "Bosh sahifa",
     "about": "Biz haqimizda",
     "courses": "Kurslar",
     "team": "Jamoa",
     "projects": "Loyihalar",
+    "offerta": "Ommaviy oferta",
+    "vacancies": "Vakansiyalar",  
+    "blog": "Blog",
+    "call_us": "Qo'ng'iroq qilish",
     "contact": "Bog'lanish"
   },
-  "intro": {
-    "title": "Ilm Hub o'quv markaziga xush kelibsiz",
-    "subtitle": "O'zingizni rivojlantiring va kelajagingizni yarating.",
-    "cta": "Bog'lanish"
+    "intro": {
+    "carousel_text1": "DASTURLASHNI",
+    "carousel_text2": "QULAY MUHITDA",
+    "carousel_text3": "O'RGANING",
+    "main_subtitle": "Zamonaviy dasturlash tillari va texnologiyalarni amaliyotga yo'naltirilgan kurslarimiz orqali chuqur o'rganing. Tajribali mentorlar bilan birga rivojlaning.",
+    "form_consultation_title": "Bepul konsultatsiya",
+    "form_consultation_text": "Savollaringiz bormi yoki kurs haqida qaror qabul qila olmaysizmi? Unda sizga bog'lanib batafsil ma'lumot beramiz.",
+    "form_name_placeholder": "Ism",
+    "form_phone_placeholder": "XX XXX XX XX",
+    "form_submit": "Ma'lumot olish",
+    "form_sending": "Yuborilmoqda...",
+    "form_success_message": "Arizangiz qabul qilindi!",
+    "form_success_subtitle": "Tez orada siz bilan bog'lanamiz.",
+    "form_error_message": "Ma'lumot yuborishda xatolik yuz berdi.",
+    "form_error_subtitle": "Iltimos, keyinroq urinib ko'ring yoki to'g'ridan-to'g'ri bog'laning."
   },
-  "stats": {
-    "title": "Bizning Raqamli Ta'sirimiz",
-    "students": "Talabalar",
-    "courses": "Kurslar",
-    "teachers": "O'qituvchilar",
-    "graduates": "Bitiruvchilar"
-  },
-
   "coursesPreview": {
-    "title": "Kurslar",
+    "title": "KURSLARIMIZ",
+    "categories": {
+      "all": "Barchasi",
+      "foundation": "Foundation",
+      "kids": "Bolalar",
+      "backend": "Backend",
+      "bootcamps": "Bootcamp",
+      "ai": "AI",
+      "mobile": "Mobil",
+      "english": "Ingliz tili"
+    },
+    "level": "Daraja",
     "details": "Batafsil",
     "viewAll": "Barchasini ko'rish",
-    "close": "Yopish",
-    "level": "Darajasi",
+    "price": "Narxi",
     "duration": "Davomiyligi",
     "requirements": "Talablar",
-    "syllabus": "Dastur",
-    "categories": {
-      "barcha": "Barchasi",
-      "foundation": "Asosiy",
-      "backend": "Backend",
-      "bootcamp": "Bootcamp",
-      "english": "Ingliz tili",
-      "mobile": "Mobil dasturlash",
-      "kids": "Bolalar"
+    "syllabusTitle": "O'quv rejasi",
+    "enrollNow": "Hoziroq ro'yxatdan o'tish"
+  },
+    "aboutUs": {
+    "title": "NEGA BIZNI TANLASH KERAK?",
+    "quality": {
+      "title": "O'qitish sifati",
+      "description": "Eng yaxshi tajribali o'qituvchilar bilan yuqori sifatli ta'lim. Amaliy ko'nikmalarga e'tibor qaratamiz."
+    },
+    "career": {
+      "title": "Karyera yordami",
+      "description": "Bitiruvchilarimizga ishga joylashishda yordam beramiz, chunki ularning muvaffaqiyati bizning muvaffaqiyatimizdir."
+    },
+    "flexibility": {
+      "title": "Moslashuvchanlik",
+      "description": "Onlayn va oflayn kurslar, sizning jadvalingizga mos keladigan moslashuvchan dars soatlari."
+    },
+    "community": {
+      "title": "Keng jamoa",
+      "description": "O'quvchilarimiz IT hamjamiyatining bir qismiga aylanadi, hamkorlik qilish va o'rganish uchun imkoniyatlar yaratiladi."
+    },
+    "innovation": {
+      "title": "Innovatsion yondashuv",
+      "description": "Doimiy yangilanishlar va zamonaviy texnologiyalarni o'quv dasturlarimizga integratsiya qilamiz."
+    },
+    "trust": {
+      "title": "Ishonch va natija",
+      "description": "Sifatli ta'lim orqali ishonchli bilimlarni beramiz va bitiruvchilarimizning real natijalarga erishishiga kafolat beramiz."
     }
   },
-  "marquee": {
-    "title": "Bizning kurslarimiz",
-    "items": [
-      "C++ Asoslari",
-      "Python Backend",
-      "React JS",
-      "Scratch Dasturlash",
-      "Arduino Loyihalari",
-      "Ingliz tili Advanced",
-      "Mobil Bootcamp",
-      "Frontend Dasturlash",
-      "Backend Dasturlash",
-      "Robotics",
-      "Scratch Kids",
-      "React Native"
-    ]
-  },
-  "footer": {
-    "rights": "Barcha huquqlar himoyalangan.",
-    "description": "Ilm Hub – bu sizning IT, ingliz tili va boshqa ko‘plab sohalardagi bilim markazingiz.",
-    "quickLinks": "Tezkor havolalar",
-    "contact": "Kontaktlar",
-    "followUs": "Bizni kuzating"
-  },
-  "navbar": {
-    "home": "Bosh sahifa",
-    "courses": "Kurslar",
-    "about": "Biz haqimizda",
-    "contact": "Aloqa",
-    "blog": "Blog"
-  },
-  "about": {
-    "intro": {
-      "title": "Biz haqimizda",
-      "description": "Ilm Hub – bu zamonaviy bilimlarni oson va tushunarli tarzda o‘rgatadigan markaz. Bizning maqsadimiz har bir o‘quvchi o‘z orzulariga yetishi uchun zamonaviy yo‘l ko‘rsatish."
-    },
-    "missionTitle": "Bizning Missiyamiz",
-    "missionDesc": "Ilm Hub missiyasi – o'quvchilarga zamonaviy IT va til bilimlarini eng yuqori sifatda yetkazish, ularning kelajagini qurishda mustahkam poydevor yaratish.",
-    "whyChooseTitle": "Nega bizni tanlashadi?",
-    "whyChooseDesc": "Ilm Hub – zamonaviy ta'lim, tajribali ustozlar va amaliy kurslar orqali mukammallikka yo‘l ochadi.",
-    "whyChooseCards": {
-      "quality": "Yuqori sifatli ta'lim",
-      "mentors": "Tajribali mentorlar",
-      "practice": "Amaliy mashg'ulotlar",
-      "certificate": "Xalqaro sertifikatlar"
-    },
-    "teamTitle": "Bizning jamoamiz",
-    "teamDesc": "Ilm Hub jamoasi – o‘z ishining ustalari, talabalarimiz muvaffaqiyati uchun birlashgan.",
-    "faq": {
-      "title": "Tez-tez beriladigan savollar",
-      "items": [
-        {
-          "q": "Ilm Hub kurslariga qanday yozilaman?",
-          "a": "Saytdagi ro'yxatdan o'tish formasini to'ldirib, menejerlarimiz bilan bog'laning."
-        },
-        {
-          "q": "Kurslar qachon boshlanadi?",
-          "a": "Har oy yangi guruhlar boshlanadi. Aniq sanani menejerlardan bilib olishingiz mumkin."
-        },
-        {
-          "q": "To'lovni qanday amalga oshiraman?",
-          "a": "To'lovni onlayn yoki ofisimiz orqali amalga oshirishingiz mumkin."
-        }
-      ]
-    }
-
-
-  },
-      "contact": {
-  "title": "Biz bilan bog'laning",
-  "name": "Ismingiz",
-  "phone": "Telefon raqamingiz",
-  "message": "Xabaringiz",
-  "send": "Yuborish"
-},
-"coursesIntro": {
-  "title": "Bizning kurslar",
-  "subtitle": "Kelajagingizni o'zgartiradigan zamonaviy kurslar to'plami.",
-  "cta": "Bog'lanish"
-},
-"projects": {
-  "title": "Bizning loyihalarimiz",
-  "viewProject": "Loyihani ko‘rish",
-  "ilmhubOJDesc": "Ilmhub OJ – o‘quvchilar uchun onlayn judge platformasi bo‘lib, algoritmlar va dasturlashni o‘rganishda yordam beradi.",
-  "aptitudeTestDesc": "Aptitude Test – talabalarni sinovdan o‘tkazish va bilim darajasini aniqlash tizimi."
-},
-"team": {
-  "title": "Bizning jamoamiz",
-  "description": "Ilm Hub kuchli va tajribali jamoasi bilan sizning rivojlanishingizga yordam beradi."
-},
-
   "feedbacks": {
-    "title": "Mijozlarimiz fikri",
-    "1": {
-      "feedback": "IlmHub kurslari orqali qisqa vaqtda Frontend bo‘yicha ko‘p narsani o‘rgandim."
-    },
-    "2": {
-      "feedback": "Ingliz tili darslari juda qiziqarli va interaktiv o‘tadi, tavsiya qilaman."
-    },
-    "3": {
-      "feedback": "Backend kurslari real loyihalar asosida o‘rgatiladi, bu katta tajriba beradi."
-    }
+    "title": "Fikr-mulohazalar",
+    "1.feedback": "Ilm Hub kurslari mening karyeramni yangi bosqichga olib chiqdi! O‘qituvchilar juda professional.",
+    "2.feedback": "Kurslar juda tushunarli va amaliy. Backend dasturlashni o‘rgandim va endi o‘z loyihamni boshladim.",
+    "3.feedback": "Zamonaviy dasturlar va ajoyib jamoa. Ilm Hubni barchaga tavsiya qilaman!"
   },
-   
   "contact": {
     "title": "Biz bilan bog‘laning",
-    "name": "Ismingiz",
-    "phone": "Telefon raqamingiz",
-    "message": "Xabaringiz",
+    "name": "Ism",
+    "phone": "Telefon raqami",
+    "message": "Xabar",
     "send": "Yuborish",
-    "success": "Xabaringiz yuborildi!",
-    "error": "Xatolik yuz berdi. Qayta urinib ko‘ring."
+    "success": "Xabaringiz muvaffaqiyatli yuborildi!",
+    "error": "Xabarni yuborishda xatolik yuz berdi. Iltimos, qayta urinib ko‘ring."
+  },
+ "faq": {
+    "title": "Tez-tez beriladigan savollar",
+    "q1": {
+      "question": "Kurslaringizga qanday ro'yxatdan o'tishim mumkin?",
+      "answer": "Kurslarimizga ro'yxatdan o'tish juda oddiy. Saytimizdagi \"Kurslar\" bo'limiga o'ting, o'zingizga mos kursni tanlang va \"Ro'yxatdan o'tish\" tugmasini bosing. Siz bilan tez orada menejerlarimiz bog'lanishadi."
+    },
+    "q2": {
+      "question": "Darslar qanday formatda o'tkaziladi?",
+      "answer": "Darslarimiz zamonaviy jihozlangan auditoriyalarda tajribali o'qituvchilar tomonidan offlayn tarzda o'tkaziladi. Har bir talabaga individual yondashuv ta'minlanadi."
+    },
+    "q3": {
+      "question": "Kursni tugatgach sertifikat beriladimi?",
+      "answer": "Ha, kursni muvaffaqiyatli yakunlagan har bir tinglovchiga xalqaro standartlarga javob beradigan sertifikat beriladi."
+    },
+    "q4": {
+      "question": "To'lov usullari qanday?",
+      "answer": "To'lovlar naqd pul, bank o'tkazmasi yoki onlayn to'lov tizimlari orqali amalga oshirilishi mumkin. Shuningdek, bo'lib-bo'lib to'lash imkoniyati ham mavjud."
+    },
+    "q5": {
+      "question": "Darslar jadvali qanday tuzilgan?",
+      "answer": "Darslar jadvali kursga qarab farq qiladi. Odatda, haftasiga 3 marta, har bir dars 1.5-2 soat davom etadi. Batafsil ma'lumotni tanlangan kurs sahifasida topishingiz mumkin."
+    },
+    "q6": {
+      "question": "Boshlang'ich bilimlar talab qilinadimi?",
+      "answer": "Ba'zi kurslarimiz (masalan, Foundation) boshlang'ich bilimlarni talab qilmaydi, boshqalari esa ma'lum bir asosiy bilimlarni talab qilishi mumkin. Har bir kursning talablari kurs tavsifida ko'rsatilgan."
+    },
+    "q7": {
+      "question": "Online darslar ham bormi?",
+      "answer": "Asosiy e'tibor offlayn darslarga qaratilgan bo'lsa-da, ba'zi maxsus kurslar yoki guruhlar uchun onlayn formatlar ham taklif etilishi mumkin. Batafsil ma'lumot uchun biz bilan bog'laning."
+    },
+    "q8": {
+      "question": "O'qituvchilarning malakasi qanday?",
+      "answer": "Bizning o'qituvchilarimiz o'z sohasining malakali mutaxassislari bo'lib, ular yillar davomida amaliy tajriba va pedagogik ko'nikmalarga ega. Ular doimiy ravishda o'z bilimlarini oshirib boradilar."
+    },
+    "q9": {
+      "question": "Bitiruvchilarga ishga joylashishda yordam berasizmi?",
+      "answer": "Ha, biz eng yaxshi bitiruvchilarimizga hamkor kompaniyalarga tavsiya berish orqali ishga joylashishda yordam beramiz. Shuningdek, CV tayyorlash va intervyu ko'nikmalarini oshirish bo'yicha maslahatlar beriladi."
+    },
+    "still_have_questions": "Savollaringiz bormi?",
+    "contact_us": "Biz bilan bog'laning"
   },
   "footer": {
-    "miniContact": "Tezkor bog‘lanish",
-    "description": "Ilm Hub - zamonaviy ta'lim markazi",
-    "contact": "Bog‘lanish",
+    "description": "Ilm Hub – bu kelajak kasblarini egallash va IT sohasida muvaffaqiyatga erishish uchun innovatsion ta'lim markazi.",
+    "quickLinksTitle": "Tezkor havolalar",
+    "contactInfoTitle": "Aloqa ma'lumotlari",
+    "findUsTitle": "Bizni toping",
+    "address": "Toshkent sh., Chilonzor tumani, Bunyodkor shoh ko'chasi, 29-uy",
     "rights": "Barcha huquqlar himoyalangan."
   },
-  "notfound": {
-  "title": "Sahifa topilmadi",
-  "description": "Kechirasiz, siz qidirgan sahifa mavjud emas yoki o'chirib tashlangan.",
-  "backHome": "Bosh sahifaga qaytish"
+ "contact": {
+    "title": "Aloqa va manzil",
+    "addressTitle": "Manzilimiz",
+    "addressValue": "Toshkent shahar, Shayxontohur tumani, Beruniy ko‘chasi 3A",
+    "showOnMap": "Xaritada ko'rish",
+    "callUs": "Bizga qo'ng'iroq qiling",
+    "sendMessageTitle": "Bog'lanib, Sizga to'liq ma'lumot beramiz.",
+    "sendMessageDescription": "Hali ham savollaringiz bormi yoki kurs haqida qabul qilishda maʼlumot kerakmi? Unda bizga bogʻlanib batafsil maʼlumot beramiz.",
+    "yourNamePlaceholder": "Ism",
+    "yourPhonePlaceholder": "Telefon raqami (+998 __ _______)",
+    "yourMessagePlaceholder": "Xabar",
+    "sendMessageButton": "Ma'lumot olish",
+    "sending": "Yuborilmoqda...",
+    "sendSuccess": "Xabaringiz muvaffaqiyatli yuborildi! Tez orada siz bilan bog'lanamiz.",
+    "sendError": "Xabar yuborishda xato yuz berdi. Iltimos, qayta urinib ko'ring.",
+    "socialTitle": "Ijtimoiy tarmoqlarimiz",
+    "mapTitle": "Bizning manzil xaritada"
+  },
+   "stats": {
+    "mainTitle": "Bizning Yutuqlarimiz",
+    "studentsLabel": "O'quvchilar",
+    "graduatesLabel": "Bitiruvchilar",
+    "programsLabel": "Mualliflik dasturlari",
+    "grantsLabel": "Grant yutgan o'quvchilar"
+  },
+  "header": {
+    "about": "Biz haqimizda",
+    "courses": "Kurslar",
+    "events": "Tadbirlar",
+    "reviews": "Sharhlar",
+    "contact": "Aloqa"
+  },
+   "coursesIntro": {
+    "title": "IT-dagi Karyerangizni Biz Bilan Boshlang",
+    "description": "Eng so'nggi texnologiyalar va amaliy loyihalar asosida yaratilgan kurslarimiz orqali yuqori malakali mutaxassisga aylaning. Bizning tajribali ustozlarimiz sizga har qadamda yordam berishadi.",
+    "ctaButton": "Kurslarni Ko'rish",
+    "ctaButtonRegister": "Kurslarga yozilish"
+  },
+  "aboutIntro": {
+    "title": "Bizning Hikoyamiz: Ilm-fandan Muammoni Hal Qilishgacha",
+    "description": "Ilm Hub yosh mutaxassislarga raqamli dunyoda muvaffaqiyat qozonish uchun zarur bo'lgan chuqur bilim va amaliy ko'nikmalarni berish maqsadida tashkil etilgan. Bizning asosiy qadriyatimiz – doimiy o'rganish, innovatsiya va jamoaviy ruh.",
+    "ctaButton": "Ko'proq Bilish",
+    "imageAlt": "Ilm Hub o'quv xonasi, talabalar darsda"
+  },
+   "missionSection": {
+    "title": "Bizning Missiyamiz: Kelajak Yetakchilarini Yetishtirish",
+    "description": "Ilm Hub'ning asosiy maqsadi – har bir o'quvchiga zamonaviy bilim va amaliy ko'nikmalarni berish orqali ularni IT sohasining talablariga mos, kreativ va innovatsion kadrlar qilib shakllantirishdir. Biz nafaqat ta'lim beramiz, balki o'quvchilarimizning shaxsiy va kasbiy rivojlanishiga ham yordam beramiz.",
+    "ctaButton": "Bizning Qadriyatlarimiz",
+    "imageAlt": "Ilm Hub o'quvchilari darsda, kompyuterda ishlamoqda"
+  },
+   "valuesModal": {
+    "title": "Bizning Asosiy Qadriyatlarimiz",
+    "close": "Yopish",
+    "value1Title": "Innovatsiya va Doimiy Rivojlanish",
+    "value1Description": "Biz doimiy ravishda yangi texnologiyalar va pedagogik yondashuvlarni izlaymiz, ta'lim dasturlarimizni zamon talablariga mos ravishda yangilab boramiz. O'quvchilarimizni ham doimiy o'rganishga va yangiliklarga ochiq bo'lishga undaymiz.",
+    "value2Title": "Amaliylik va Natijaga Yo'naltirilganlik",
+    "value2Description": "Har bir kursimiz amaliy loyihalar va real muammolar asosida qurilgan. Maqsadimiz – o'quvchilarimizning nazariy bilimlarini amaliy ko'nikmalar bilan mustahkamlash va ularga haqiqiy ish tajribasini berish.",
+    "value3Title": "Jamoaviy Ruh va Qo'llab-quvvatlash",
+    "value3Description": "Ilm Hub'da biz o'zaro hurmat, hamkorlik va yordamga asoslangan muhit yaratamiz. Bizning jamoamiz va o'quvchilarimiz bir-birini qo'llab-quvvatlaydigan katta oiladir.",
+    "value4Title": "Shaxsiy O'sish va Potentsialni Ochish",
+    "value4Description": "Biz har bir o'quvchining shaxsiy qiziqishlari va qobiliyatlarini inobatga olamiz. Ularga o'z salohiyatlarini to'liq ro'yobga chiqarishlari uchun sharoit yaratamiz va kelajakdagi karyeralarida muvaffaqiyatga erishishlari uchun yo'nalish beramiz."
+  },
+    "teamSection": {
+    "title": "Bizning Ustozlar Jamoasi",
+    "member1Name": "Vahid Abduhakimov",
+    "member1Job": "Full Stack Dasturchi",
+    "member2Name": "Davron Abduhakimov",
+    "member2Job": "Co-founder, Full Stack Dasturchi",
+    "member3Name": "Munisa Tojibova",
+    "member3Job": "Ingliz tili O'qituvchisi",
+    "member4Name": "Zarina Valijanova",
+    "member4Job": "Ingliz tili O'qituvchisi"
+  },
+    "teamIntro": {
+    "title": "Bizning Malakali Mutaxassislar Jamoamiz",
+    "description": "Bizning Ilm Hub dagi har bir ustoz o'z sohasining haqiqiy mutaxassisi bo'lib, chuqur bilim va boy amaliy tajribaga ega. Ular sizga o'z tajribalarini ulashishga, qiyinchiliklarni yengishga va IT sohasida o'z yo'lingizni topishga yordam berishga tayyor."
+  },
+    "projectsPage": {
+    "title": "O'quvchilarimizning Ajoyib Loyihalari",
+    "studentName": "Talaba: {{name}}",
+    "viewProject": "Loyihani Ko'rish",
+    "project1Title": "Z-Building Qurilish Sayti",
+    "student1Name": "Zafar",
+    "project2Title": "Elite Building Kompaniyasi Sayti",
+    "student2Name": "Javohir",
+    "project3Title": "IT-Kompleks Marketing Sayti",
+    "student3Name": "Ibrohim",
+    "project4Title": "NetStroring Onlayn Do'koni",
+    "student4Name": "Nuriddin"
+  },
+   "companiesSection": {
+    "title": "Bitiruvchilarimiz Ish Yuritayotgan Kompaniyalar",
+    "description": "Talabalar o'qish davomida quyidagi kompaniyalarda amaliyot o'tash imkoniyatiga ega bo'ladilar"
+  },
+  "publicOfferPage": {
+    "title": "OMMAVIY OFERTA",
+    "section1Title": "1. Umumiy qoidalar",
+    "section1Text1": "Ushbu hujjat (keyingi o'rinlarda – Oferta) \"Ilm Hub\" nodavlat ta'lim muassasasi (keyingi o'rinlarda – Ta'lim muassasasi) tomonidan ta'lim xizmatlarini ko'rsatish bo'yicha shartnoma tuzish uchun ommaviy taklif hisoblanadi. Oferta O'zbekiston Respublikasi Fuqarolik kodeksining 367 va 369-moddalari talablariga muvofiq, taklifni qabul qilgan har qanday yuridik yoki jismoniy shaxs (keyingi o'rinlarda – Buyurtmachi) uchun majburiy hisoblanadi.",
+    "section1Text2": "Ofertaning to'liq va so'zsiz qabul qilinishi Buyurtmachi tomonidan Ta'lim muassasasi tomonidan taqdim etilgan hisob-fakturaga muvofiq to'lovni amalga oshirish orqali amalga oshiriladi. To'lov amalga oshirilgan paytdan boshlab, Oferta shartlari Buyurtmachi va Ta'lim muassasasi o'rtasida majburiy hisoblanadi.",
+
+    "section2Title": "2. Oferta predmeti",
+    "section2ListItem1": "Ta'lim muassasasi Buyurtmachiga (yoki uning shogirdiga) o'quv dasturlari va rejalariga muvofiq ta'lim xizmatlarini ko'rsatishni o'z zimmasiga oladi.",
+    "section2ListItem2": "Ta'lim xizmatlari Ta'lim muassasasining amaldagi litsenziyasiga muvofiq amalga oshiriladi.",
+    "section2ListItem3": "Kurslarning nomi, davomiyligi, narxi va o'qitish tartibi Ta'lim muassasasining rasmiy veb-saytida yoki alohida bitimda ko'rsatiladi.",
+    "section2ListItem4": "Ta'lim muassasasi xizmatlarni Buyurtmachi tomonidan to'lov amalga oshirilgandan so'ng, shartnomada kelishilgan muddatlarda ko'rsatadi.",
+
+    "section3Title": "3. Tomonlarning huquq va majburiyatlari",
+    "section3Text": "Ta'lim muassasasi: ta'lim xizmatlarini sifatli ko'rsatish, o'quv jarayonini tashkil etish, o'quv dasturlarini ta'minlash. Buyurtmachi: xizmatlar uchun o'z vaqtida haq to'lash, Ta'lim muassasasining ichki tartib qoidalariga rioya qilish, o'quvchining tartib-intizomli bo'lishini ta'minlash.",
+
+    "contactsTitle": "4. Rekvizitlar va aloqa",
+    "address": "Manzil",
+    "email": "Elektron pochta",
+    "phone": "Telefon",
+    "offerDate": "Ushbu oferta 2024-yil "
+  },
+    "vacanciesPage": {
+    "title": "Mavjud Vakansiyalar",
+    "postedDate": "Joylashtirilgan sana: {{date}}",
+    "salary": "Maosh",
+    "applyNow": "Hoziroq murojaat qiling",
+
+    "vacancy1Title": "Frontend Dasturchi",
+    "vacancy1Description": "Bizning jamoamizga React.js tajribasiga ega tajribali Frontend Dasturchini qidiryapmiz. Komandamiz bilan birga innovatsion veb-ilovalarni yarating.",
+    "vacancy1Req1": "React.js, Next.js, Redux bo'yicha kuchli bilim",
+    "vacancy1Req2": "HTML, CSS (TailwindCSS/Sass), JavaScript (ES6+) bilish",
+    "vacancy1Req3": "RESTful API'lar bilan ishlash tajribasi",
+    "vacancy1Salary": "8 000 000 - 15 000 000 so'm",
+
+    "vacancy2Title": "Backend Dasturchi",
+    "vacancy2Description": "Node.js yoki Python (Django/Flask) da ishlagan Backend Dasturchini izlaymiz. Kengaytiriladigan va yuqori samarali server tomoni ilovalarini ishlab chiqing.",
+    "vacancy2Req1": "Node.js (Express) yoki Python (Django/Flask) da tajriba",
+    "vacancy2Req2": "Ma'lumotlar bazalari (PostgreSQL, MongoDB) bilan ishlash",
+    "vacancy2Req3": "API'lar dizayni va implementatsiyasi",
+    "vacancy2Salary": "9 000 000 - 18 000 000 so'm",
+
+    "vacancy3Title": "UI/UX Dizayner",
+    "vacancy3Description": "Foydalanuvchi interfeyslari va tajribasini loyihalash bo'yicha ijodkor UI/UX dizayner kerak. Mahsulotlarimizni foydalanuvchilar uchun intuitiv va jozibador qiling.",
+    "vacancy3Req1": "Figma, Adobe XD yoki Sketch'da mahorat",
+    "vacancy3Req2": "Foydalanuvchi markazli dizayn prinsiplarini bilish",
+    "vacancy3Req3": "Portfolioni taqdim etish majburiy",
+    "vacancy3Salary": "7 000 000 - 12 000 000 so'm",
+
+    "vacancy4Title": "Marketing Menejeri",
+    "vacancy4Description": "Marketing strategiyalarini ishlab chiqish va amalga oshirishda yordam beradigan tajribali Marketing Menejeri. Brendimizni rivojlantirishga hissa qo'shing.",
+    "vacancy4Req1": "Marketing sohasida tajriba",
+    "vacancy4Req2": "Raqamli marketing vositalarini bilish (SEO, SMM, Google Ads)",
+    "vacancy4Req3": "Aloqa va taqdimot ko'nikmalari",
+    "vacancy4Salary": "6 000 000 - 11 000 000 so'm"
+  }
 }
-
-
-
-
-}
-
-
-
-
-

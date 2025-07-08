@@ -2,19 +2,21 @@ import React from "react";
 import Intro from "../components/Intro";
 import Stats from "../components/Stats";
 import CoursesPreview from "../components/CoursesPreview";
-import MarqueeSection from "../components/MarqueeSection";
-import ContactSection from "../components/about/ContactSection";
-import Feedback from "../components/Feedback";
+import WhyChooseUs from "../components/WhyChooseUs";
+import ContactUs from "../components/about/ContactUs";
+import FAQSection from "../components/FAQSection";
+import CompaniesSection from "../components/CompaniesSection";
 
 const Home = () => {
   return (
-    <main >
+    <main>
       <Intro />
-      <CoursesPreview/>
-      <MarqueeSection />
+      <CoursesPreview />
+      <CompaniesSection />
+      <WhyChooseUs />
       <Stats />
-      <Feedback />
-      <ContactSection />
+      <FAQSection />
+      <ContactUs />
     </main>
   );
 };
