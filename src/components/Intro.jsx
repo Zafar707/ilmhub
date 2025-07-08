@@ -304,7 +304,7 @@ const Intro = () => {
                   {t("intro.form_phone_placeholder")}
                 </label>
                 <div className="absolute left-3 top-1/2 -translate-y-1/2 flex items-center pr-2 border-r border-gray-300 dark:border-gray-600 h-2/3">
-                  <img src="../src/assets/images/uzb.png" alt="UZB" className="w-6 h-auto mr-2" />
+                  <img src="../../public/images/uzb.png" alt="UZB" className="w-6 h-auto mr-2" />
                   <span className={`${theme === 'dark' ? 'text-gray-400' : 'text-gray-600'} text-base font-medium`}>+998</span>
                 </div>
                 <input

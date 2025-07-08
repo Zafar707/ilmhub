@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { useTheme } from "../context/ThemeContext";
 import { motion } from "framer-motion";
-import notFoundImage from "../assets/images/404.png"; // o'zingning rasmi yo'lini yoz
+import notFoundImage from "../../public/images/404.png"; // o'zingning rasmi yo'lini yoz
 
 const NotFoundPage = () => {
   const { t } = useTranslation();

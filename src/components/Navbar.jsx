@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 import { Menu, X, Sun, Moon, Phone } from "lucide-react";
 import ReactCountryFlag from "react-country-flag";
 import { useTheme } from "../context/ThemeContext";
-import logo from "../assets/images/logo.png"; // Loyihangizdagi logo yo'lini to'g'ri ko'rsating
+import logo from "../../public/images/logo.png"; // Loyihangizdagi logo yo'lini to'g'ri ko'rsating
 
 const Navbar = () => {
   const { t, i18n } = useTranslation();

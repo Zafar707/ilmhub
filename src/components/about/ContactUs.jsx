@@ -375,7 +375,7 @@ Xabar: 💬 <i>${messageText || "Xabar yozilmagan."}</i>
                     {/* O'zbekiston bayrog'i va +998 prefiksi ContactUs formasi uchun*/}
                     <div className="absolute left-3 top-1/2 -translate-y-1/2 flex items-center pr-2 border-r border-white/30 h-2/3">
                         {/* Sizning loyihangizdagi bayroq rasmi yo'lini tekshiring */}
-                        <img src="/src/assets/images/uzb.png" alt="UZB" className="w-6 h-auto mr-2" />
+                        <img src="../../public/images/uzb.png" alt="UZB" className="w-6 h-auto mr-2" />
                         <span className="text-gray-200 text-base font-medium">+998</span>
                     </div>
                     <input

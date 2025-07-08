@@ -5,7 +5,7 @@ import { useTheme } from "../../context/ThemeContext";
 import { Link } from "react-router-dom";
 
 // Rasm import qilinadi
-import aboutHeroImage from '../../assets/images/room.png';
+import aboutHeroImage from '../../public/images/room.png';
 
 // Lucide React ikonkalari
 import { ArrowRight } from 'lucide-react';

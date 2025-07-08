@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 import { useTheme } from "../context/ThemeContext";
-import logo from "../assets/images/logo.png"; // Logo rasm manzili
+import logo from "../../public/images/logo.png"; // Logo rasm manzili
 // Lucide React ikonkalari
 import {
   Phone,

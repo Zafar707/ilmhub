@@ -5,10 +5,10 @@ import { useTheme } from "../../context/ThemeContext";
 
 // Jamoa a'zolari rasmlarini import qilish
 // Nomlari sizning rasmlaringiz nomiga mos kelishiga ishonch hosil qiling
-import teamMember1 from '../../assets/images/vohid.png'; // Birinchi rasm
-import teamMember2 from '../../assets/images/davron.png'; // Ikkinchi rasm (bu sizning oldingi mission image'ingiz, shunchaki misol uchun ishlatdim)
-import teamMember3 from '../../assets/images/women.png'; // Agar mavjud bo'lsa
-import teamMember4 from '../../assets/images/women.png'; // Agar mavjud bo'lsa
+import teamMember1 from '../../public/images/vohid.png'; // Birinchi rasm
+import teamMember2 from '../../public/images/davron.png'; // Ikkinchi rasm (bu sizning oldingi mission image'ingiz, shunchaki misol uchun ishlatdim)
+import teamMember3 from '../../public/images/women.png'; // Agar mavjud bo'lsa
+import teamMember4 from '../../public/images/women.png'; // Agar mavjud bo'lsa
 
 const teamMembers = [
   { id: 1, nameKey: "teamSection.member1Name", jobKey: "teamSection.member1Job", image: teamMember1 },

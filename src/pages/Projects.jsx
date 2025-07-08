@@ -6,10 +6,11 @@ import { useTheme } from '../context/ThemeContext';
 import ProjectCard from '../components/ProjectsCard';
 
 // Loyihalar rasmlarini import qiling
-import zBuildingImage from '../assets/images/z-building.png';
-import eliteBuildingImage from '../assets/images/elite-building.png';
-import boisterousDouhuaImage from '../assets/images/boisterous-douhua.png';
-import netstoringImage from '../assets/images/netstoring.png';
+
+import zBuildingImage from '../../public/images/z-building.png';
+import eliteBuildingImage from '../../public/images/elite-building.png';
+import boisterousDouhuaImage from '../../public/images/boisterous-douhua.png';
+import netstoringImage from '../../public/images/netstoring.png';
 
 const projectsData = [
   { id: 1, studentNameKey: "projectsPage.student1Name", titleKey: "projectsPage.project1Title", url: "https://z-building.vercel.app/", image: zBuildingImage },

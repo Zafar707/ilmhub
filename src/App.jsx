@@ -2,7 +2,7 @@ import React, { useEffect, Suspense, lazy } from "react";
 import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-import logo from "./assets/images/logo.png";
+import logo from "../public/images/logo.png"; // Loyihangizdagi logo yo'lini to'g'ri ko'rsating
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useTheme } from "./context/ThemeContext";
@@ -56,7 +56,7 @@ const App = () => {
             <Route path="/about" element={<About />} />
             <Route path="/courses" element={<Courses />} />
             <Route path="/team" element={<Team />} />
-            <Route path="/blog" element={<BlogPage />} />
+            <Route path="/blog" element={<BlogPage />} /> 
             <Route path='/offerta' element={<Offerta />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/contact" element={<Contact />} />
