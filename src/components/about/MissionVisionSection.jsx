@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 import { useTheme } from "../../context/ThemeContext";
 
 // Rasmlarni to'g'ri import qilishga ishonch hosil qiling
-import missionImage from '../../public/images/students.png'; // Fayl nomi to'g'ri ekanligiga ishonch hosil qiling
+import missionImage from '/images/students.png'; // Fayl nomi to'g'ri ekanligiga ishonch hosil qiling
 
 // Lucide React ikonkalari
 import { ArrowRight } from 'lucide-react';

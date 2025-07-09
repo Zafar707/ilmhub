@@ -5,10 +5,10 @@ import { useTheme } from "../../context/ThemeContext";
 
 // Vaqtinchalik rasmlar. Siz bularni o'zingizning jamoa a'zolaringiz rasmlari bilan almashtirishingiz shart!
 // Hozirda siz yuborgan xona rasmlaridan foydalanilmoqda.
-import teamMember1Temp from '../../assets/images/vohid.png'; // Dars xonasi 1
-import teamMember2Temp from '../../assets/images/davron.png'; // Dars xonasi 2
-import teamMember3Temp from '../../assets/images/women.png'; // Boshqa rasm
-import teamMember4Temp from '../../assets/images/women.png'; // Boshqa rasm
+import teamMember1Temp from '/images/vohid.png'; // Dars xonasi 1
+import teamMember2Temp from '/images/davron.png'; // Dars xonasi 2
+import teamMember3Temp from '/images/women.png'; // Boshqa rasm
+import teamMember4Temp from '/images/women.png'; // Boshqa rasm
 
 const teamMembers = [
   // Image property'sini o'zingizning to'g'ri rasm yo'llaringiz bilan almashtiring!
